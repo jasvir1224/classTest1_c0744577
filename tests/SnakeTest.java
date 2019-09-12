@@ -33,6 +33,8 @@ public class SnakeTest {
 		
 		int length = 15; 
 	boolean	cagelength = snake.fitsInCage(20);
+	 assertEquals("length", snake.fitsInCage(20));
+
 
 		
 	}
