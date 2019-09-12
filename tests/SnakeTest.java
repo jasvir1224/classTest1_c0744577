@@ -23,8 +23,7 @@ public class SnakeTest {
 	String food = "vegetable";
 	
 	boolean snakeFood = snake.isHealthy();
-	
-         assertEquals("food", snake.isHealthy());
+ assertEquals("food", snake.isHealthy());
 	
 	
 		}
@@ -32,8 +31,12 @@ public class SnakeTest {
 	@Test
 	public void fitsInCage() {
 		
-	boolean	snakelength = snake.fitsInCage(20);
+		int length = 15; 
+	boolean	cagelength = snake.fitsInCage(20);
+
+		
+	}
 	
 	}
 
-}
+

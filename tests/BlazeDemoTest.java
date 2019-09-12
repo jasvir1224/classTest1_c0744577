@@ -33,15 +33,21 @@ public class BlazeDemoTest {
 
 	@Test
 	public void testCase1() {
+	
 		List<WebElement> departureCitites = driver.findElements(By.name("select#value"));
 		System.out.println("Number of cities: " + departureCitites.size());
+	
 		for (int i = 0; i < departureCitites.size(); i++) {
+			
 		WebElement cities = departureCitites.get(i);
 		String actualcities = cities.getText(); 
 		assertEquals(7, actualcities);
 
+	
 		}
 		
 	}
-
+	
 }
+
+
